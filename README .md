@@ -1,4 +1,4 @@
-# Education
+# Educational Inequality and ACT Performance
 
 This project addresses inequality of educational opportunity in U.S. high schools.Using data science methods, this project analyzes 
 average student performance on the ACT or SAT exams that students take as part of the college application process. Visualizations and statistical tests are used to support the findings and provide insights into range of school performance on these exams and the school performance associated with socioeconomic factors.
@@ -7,11 +7,10 @@ average student performance on the ACT or SAT exams that students take as part o
 
 ## Project Overview
 
-Provide a short and concise overview of the project. Mention the problem it solves, the data used, and the key outcomes or findings.
-
+This project examines how socio-economic factors affect ACT scores, using school data on income, parental education, and reduced-price lunch participation. The analysis shows that higher income and education levels, along with lower economic disadvantage, are strongly linked to better ACT performance. These results suggest that targeted support for disadvantaged schools could help reduce achievement gaps.
 - **Objective:** The goal of the project s to find out whether the average ACT scores of the school is related to socio-economic factors.
 - **Domain:** Education
-- **Key Techniques:** Linear Regression
+- **Key Techniques:** Simple Linear Regression,Multi Linear regression.
 
 ---
 
@@ -33,13 +32,12 @@ Provide a short and concise overview of the project. Mention the problem it solv
               School Information data : https://github.com/brian-fischer/DATA-5100
               School data : https://nces.ed.gov/programs/edge/
 - **Description:** Brief overview of the dataset features, size, and format
-- **License:** (if applicable)
 
 ---
 
 ## Analysis
 
-Describe the notebooks and/or scripts used to perform the analysis. Specify the order in which the code should be run to reproduce the results.
+The analysis was carried out in a Jupyter notebook. The workflow begins with data preparation (cleaning and merging datasets), followed by exploratory analysis (descriptive statistics and visualizations). Next, the modeling and hypothesis testing notebook fits regression models and evaluates predictors, and finally, the results notebook summarizes findings and produces report-ready figures. Running the notebooks in this order fully reproduces the results.
 
 ---
 
@@ -65,5 +63,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Tools/libraries used 
 	Tool : Jupyter notebook 
 	Libraries : pandas, numpy, matplotlib, pyplot, seaborn
-- Inspiration or collaborators - https://github.com/brian-fischer/DATA-5100/tree/main/weather
+- Inspiration or collaborators - https://github.com/brian-fischer/DATA-5100/tree/main
 
